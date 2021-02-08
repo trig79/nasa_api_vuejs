@@ -10,11 +10,6 @@
 export default {
     name: 'ImageWindow',
     props: ['href'],
-    // data: () => ({
-    // images: [{
-    //     1 : "https://images-assets.nasa.gov/image/PIA12274/collection.json",
-    // }]
-//   })
 }
 
 

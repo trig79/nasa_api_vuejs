@@ -63,5 +63,27 @@ section {
   box-shadow: 5px 5px 10px rgb(7, 7, 7);
 }
 
+@media screen and (max-width: 900px) {
+.home{
+  height: unset;
+}
+section {
+  width: 100%;
+  overflow: scroll;
+}
+
+.image-div {
+  display: relative;
+  width:100%;
+  max-height: 30vh;
+  padding: 1%;
+  box-shadow: unset;
+
+}
+
+  
+}
+
+
 
 </style>
