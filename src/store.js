@@ -9,14 +9,8 @@ export const store = new Vuex.Store({
   },
   mutations: {
     addImages(state, newImages) {
-      //reet state to empty before re-populating
       state.images = []
       state.images.push(newImages)
     },
   },
-  // actions: {
-  //   createImages({ commit }, newImages) {
-  //     commit('addImages', newImages)
-  //   },
-  // },
 })
